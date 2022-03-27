@@ -19,6 +19,10 @@ class globalVar():
     # operation
     operationId = 0
 
+    # bgimg
+    bgimgPath = "res/3.jpg"
+    bgimg = None
+
     def __init__(self):
         self.APP_TITLE = u'音符文档助手'
         self.STATUS = (u'注意：\n1、本软件由音符基于python开发;\n2、本软件不会获取您的个人信息;\n'
